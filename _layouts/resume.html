@@ -27,7 +27,17 @@
         </div>
 
         <div class="executive-summary" itemprop="description">
-          <p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but K.I.S.S.</p>
+
+          <p>
+            I'm a problem solver with strong quantitative skills. My primary expertise is in finance, econometrics, programming, and machine learning. 
+          </p>
+
+          <p> 
+            I have worked on engagements as diverse as the valuation of mortgage-backed securities for banks, the estimation of patent essentiality for cell phone makers, the analysis of large databases of insurance claims to identify rare diseases for health care companies, and the development of a model to estimate the air pressure in a football for Tom Brady during the deflategate case. 
+          </p>
+          <p>
+            I like intellectual challenges, finding stories in data, and learning new things. As a hobby, I develop scrapers and compile data to arbitrage <a href="https://github.com/pgduval/exchanges">Bitcoin prices</a> or to find the optimal time to buy <a href="https://github.com/pgduval/viarail">train tickets</a>. I'm also working on improving my back and front-end development skills to build dynamic websites.
+          </p>
         </div>
 
         {% if site.resume_looking_for_work == 'yes' %}
@@ -39,6 +49,26 @@
 
       </header>
 
+      {% if site.resume_section_highlights%}
+      <!-- begin Highlights -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Highlights of Qualifications</h2>
+        </header>
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <ul class="resume-item-list">
+            <li>Five years of experience and over 100 projects in programming, statistical modeling, machine learning, and technical writing</li>
+            <li>Proficiency in many programming languages (e.g., Python, R, SAS, SQL, MATLAB, BASH)</li>
+            <li>Expert in cleaning, storage, and analysis of data</li>
+            <li>Applied knowledge of Amazon cloud platform (AWS) and Linux</li>
+            <li>Good teamwork skills</li>
+            <li>Fluency in English and French (native)</li>
+          </ul>
+      </section>
+      <!-- end Highlights -->
+      {% endif %}
+
       {% if site.resume_section_experience %}
       <!-- begin Experience -->
       <section class="content-section">
@@ -49,32 +79,55 @@
 
         <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details" itemprop="description">Safety Inspector &bull; Nov, 1980 &mdash; Present</h4>
-          <p class="resume-item-copy">Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points:</p>
+          <h3 class="resume-item-title" itemprop="name">Economist</h3>
+          <h4 class="resume-item-details" itemprop="description">Analysis Group &mdash; Full time &bull; 2012 &mdash; 2016</h4>
           <ul class="resume-item-list">
-            <li>Ate lots of donuts</li>
-            <li>Fell asleep rarely</li>
-            <li>Left promptly at end of day (sometimes earlier)</li>
+            <li>Provided technical expertise in diverse cases and in multiple area of work (finance, health  care, intellectual property, and strategy)</li>
+            <li>Implemented financial models for the valuation of mortgage-backed securities and other derivative products</li>
+            <li>Used machine learning techniques to predict multiple outcomes (e.g., rare diseases, mortgage default rates, essential patents)</li>
+            <li>Developed programs and computing techniques for intensive calculations such as solving Nash equilibrium, Monte-Carlo simulations, and bootstraps</li>
+            <li>Designed and managed cloud-based computing clusters</li>
+            <li>Wrote technical documentation for programs, algorithms, statistical models, and estimation techniques</li>
           </ul>
-          <p class="resume-item-copy">If you're going to copy paste markup, or edit it, just be sure to keep the appropriate classnames on your new elements for styling purposes.</p>
-
         </div><!-- end of resume-item -->
 
-        <!-- another resume item -->
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Sir Putt-A-Lot's Merrie Olde Fun Centre</h3>
-          <h4 class="resume-item-details" itemprop="description">Windmill Crank Operator &bull; Jun, 1978 &mdash; Sept, 1979</h4>
-          <p class="resume-item-copy">If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.</p>
-
+          <h3 class="resume-item-title" itemprop="name">Intern Economist</h3>
+          <h4 class="resume-item-details" itemprop="description">Analysis Group &mdash; Eight month full time internship &bull; 2012</h4>
+          <ul class="resume-item-list">
+            <li>Assisted in the writing of research manuscripts, posters and conference abstracts</li>
+            <li>Created Excel tables and graphs to present research results</li>
+            <li>Performed literature review on various topics (statistics, health economics)</li>
+            <li>Coded in SAS every day for the duration of the internship</li>
+            <li>Audited codes and written documents</li>
+          </ul>
         </div><!-- end of resume-item -->
 
-        <!-- by now you're getting the picture... -->
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">Simpson Lazer Tag</h3>
-          <h4 class="resume-item-details" itemprop="description">Front Desk Attendant &bull; Jun, 1975 &mdash; May, 1978</h4>
-          <p class="resume-item-copy">Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.</p>
+          <h3 class="resume-item-title" itemprop="name">Intern Investment Analyst</h3>
+          <h4 class="resume-item-details" itemprop="description">Intact Financial Corporation &mdash; Four month full time internship &bull; 2011</h4>
+          <ul class="resume-item-list">
+            <li>Provided technical expertise in diverse cases and in multiple area of work (finance, health  care, intellectual property, and strategy)</li>
+            <li>Implemented financial models for the valuation of mortgage-backed securities and other derivative products</li>
+            <li>Used machine learning techniques to predict multiple outcomes (e.g., rare diseases, mortgage default rates, essential patents)</li>
+            <li>Developed programs and computing techniques for intensive calculations such as solving Nash equilibrium, Monte-Carlo simulations, and bootstraps</li>
+            <li>Designed and managed cloud-based computing clusters</li>
+            <li>Wrote technical documentation for programs, algorithms, statistical models, and estimation techniques</li>
+          </ul>
+        </div><!-- end of resume-item -->
 
+        <!-- Duplicate these resume-item elements and edit accordingly for each job you want to add here -->
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">Intern Economic Development Advisor</h3>
+          <h4 class="resume-item-details" itemprop="description">Ministry of Economic Development, Innovation and Export Trade &mdash; Two four month full time internships &bull; 2009 &mdash; 2010</h4>
+          <ul class="resume-item-list">
+            <li>Wrote more than 70 company summaries</li>
+            <li>Conducted financial analyses of more than 80 companies</li>
+            <li>Compiled and maintained a database on innovation indicators </li>
+            <li>Met local entrepreneurs and visited their businesses</li>
+          </ul>
         </div><!-- end of resume-item -->
 
       </section>
@@ -90,9 +143,14 @@
         </header>
 
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">Springfield College</h3>
-          <h4 class="resume-item-details" itemprop="description">Associates Degree, Business Management &bull; 1984 &mdash; 1986</h4>
-          <p class="resume-item-copy">If you had any meaningful roles at college, feel free to write about them here.</p>
+          <h3 class="resume-item-title" itemprop="name">Master of Economics &dash; 2015</h3>
+          <h4 class="resume-item-details" itemprop="description">Area of concentration: econometrics &bull; University of Sherbrooke</h4>
+          <p class="resume-item-copy"><i><a href="http://savoirs.usherbrooke.ca/bitstream/handle/11143/7936/Giguere_Duval_Philippe_MSC_2015.pdf?sequence=1">Thesis: "Winning Play in Penny Auctions"</a></i></p>
+        </div>
+
+        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">Bachelor in Economics &dash; 2011</h3>
+          <h4 class="resume-item-details" itemprop="description">Area of concentration: econometrics &bull; University of Sherbrooke</h4>
         </div>
 
       </section>
@@ -155,50 +213,37 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Recognition</h2>
+          <h2>Awards and Scholarships</h2>
         </header>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Springfield Nuclear Power Plant</h3>
-          <h4 class="resume-item-details">Outstanding Achievement &bull; 2010</h4>
-          <p class="resume-item-copy">Awarded for stopping a nuclear meltdown, even though I also started it.</p>
-        </div>
+          <ul class="resume-item-list">
+            <li>Social Sciences and Humanities Research Council of Canada, Fellowship, 2011</li>
+            <li>Fonds Québécois de la Recherche sur la Société et Culture, Fellowship, 2012</li>
+            <li>Analysis Group, Fellowship, 2011-2012</li>
+            <li>Faculty of Business, University of Sherbrooke, Excellence in Economics, 2011</li>
+            <li>Scotiabank, Excellence Grant, 2011-2012</li>
+            <li>Wrote technical documentation for programs, algorithms, statistical models, and estimation techniques</li>
+          </ul>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Duff Beer Customer of the year</h3>
-          <h4 class="resume-item-details">1997 &mdash; 2001, 2003, 2008 &mdash; 2012</h4>
-          <p class="resume-item-copy">Honored by <a href="https://en.wikipedia.org/wiki/Duff_Beer">Duff Beer</a> for being an outstanding customer several years straight. Qualifications included most beer consumed at a bar, most beer purchased, and most beer ralphed.</p>
-        </div>
-
-        <div class="resume-item">
-          <h3 class="resume-item-title" itemprop="award">Moe's Patron of the Month</h3>
-          <h4 class="resume-item-details">12/2001, 8/2004</h4>
-          <p class="resume-item-copy">Specifically this prestigious awarded twice for stopping a robber with my belly.</p>
-        </div>
 
       </section>
       <!-- end Recognition -->
       {% endif %}
 
-      {% if site.resume_section_associations %}
+      {% if site.resume_section_publications %}
       <!-- begin Associations -->
       <section class="content-section">
 
         <header class="section-header">
-          <h2>Associations</h2>
+          <h2>Publications</h2>
         </header>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title"><a href="http://beerfortheworld.com">Beer for the World</a></h3>
-          <h4 class="resume-item-details">Volunteer &bull; 2008 &mdash; Present</h4>
-          <p class="resume-item-copy">Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.</p>
-        </div>
+          <ul class="resume-item-list">
+            <li>Impact of Timely Switching From Imatinib to a Second-Generation Tyrosine Kinase Inhibitor After 12-Month Complete Cytogenetic Response Failure: A Chart Review Analysis. (2014). Daniel J. DeAngelo, Lei Chen, Annie Guerin, Amy Styles, Philippe Giguere-Duval, Eric Q. Wu. <a href="https://www.ncbi.nlm.nih.gov/pubmed/24393622">Clinical Lymphoma, Myeloma & Leukemia. June 2014 Volume 14, Issue 3, Pages 245–251.</a> </li>
+            <li>An Analysis of Investment and Drawdown Strategies over a Long Retirement Horizon. (2014). Jimmy Royer, Kara Schmutte, Philippe Giguere-Duval, Marc Van Audenrode. <a href="https://www.researchgate.net/publication/270567132_An_Analysis_of_Investment_and_Drawdown_Strategies_over_a_Long_Retirement_Horizon">ResearchGate</a></li>
+            <li>A Life-Course Assessment of Treatment Patterns and Healthcare Costs of Lennox-Gastaut Syndrome (LGS). (2016). Georgia Montouris, J. Eric Piňa-Garza, Francis Vekeman, Wendy Cheng, Edward Tuttle, Phillippe Giguere-Duval, Mei Sheng Duh, Vivienne Shen and Jouko Isojarvi. <a href="http://www.neurology.org/content/86/16_Supplement/P1.085">Neurology. April 5, 2016 vol. 86 no. 16 Supplement P1.085.</a></li>
+          </ul>
 
-        <div class="resume-item">
-          <h3 class="resume-item-title">Springfield Nuclear Workers Labor Union</h3>
-          <h4 class="resume-item-details">Member in Good Standin &bull; 1994 &mdash; Present</h4>
-          <p class="resume-item-copy">Founding member of the local nuclear workers labor union.</p>
-        </div>
 
       </section>
       <!-- end Associations -->
@@ -224,8 +269,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Made by <a href="https://github.com/pgduval">pgduval</a>
       </footer>
 
     </div>
