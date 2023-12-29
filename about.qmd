@@ -1,0 +1,29 @@
+---
+title: "Philppe G-Duval"
+image: pgduval.png
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/philippe-giguere-duval-689631112
+    - icon: github
+      text: Github
+      href: https://github.com/pgduval
+---
+
+## About
+
+Welcome! I’m Philippe G-Duval, a seasoned Director at STATLOG with over 12 years of experience in data and analytics. My expertise lies in constructing statistical models, particularly in the realm of finance and credit risk modeling. When I’m not immersed in data, you can either find me logging wood or crafting intricate designs with my mastery of crochet!
+
+<!-- ## Tools I use -->
+
+<!-- I’m an advanced user of various data-related languages on a daily basis. When consulting for large corporations, I use the tool SQL/SAS as these are typically the only tools available. However, when given the choice, I prefer to use Python for data engineering and R for analytics, modeling, and reporting.  -->
+
+## Education
+
+University of Sherbrooke, Québec, Canada  
+MSC in Economics \| 2011 - 2013
+
+University of Sherbrooke, Québec, Canada  
+B.A in Economics  \| 2007 - 2011
