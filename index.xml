@@ -71,13 +71,14 @@ font-style: inherit;">"loess"</span>)</span></code></pre></div>
 <item>
   <title>Setup this blog</title>
   <dc:creator>Philippe G-Duval</dc:creator>
-  <link>https://pgduval.github.io/posts/welcome/index.html</link>
+  <link>https://pgduval.github.io/posts/setup/index.html</link>
   <description><![CDATA[ 
 
 
 
 
-<p>Documenting the setup of this blog for posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.</p>
+<p>Documenting the setup of this blog.</p>
+<p>For posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.</p>
 <p>I’m following the quarto documentation here: <a href="https://quarto.org/docs/guide/">Quarto</a> more specifically the <a href="https://quarto.org/docs/websites/website-blog.html">Creating a Blog</a> guide.</p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
@@ -93,18 +94,18 @@ font-style: inherit;">"loess"</span>)</span></code></pre></div>
 </ul>
 <p>Updating the blog is simply a matter of:</p>
 <ol type="1">
-<li>Making the change on the <code>gh-page</code> branch</li>
-<li>Commiting the change</li>
-<li>Checkout on main branch</li>
+<li>Making the change on the <code>main</code> branch</li>
+<li>Commiting the changes</li>
 <li>Publish with <code>quarto publish gh-pages</code></li>
 </ol>
+<p>The <code>quarto publish</code> commands automatically render and commit the changes on <code>main</code> to the <code>gh-pages</code> branch. It then push the changes to github.</p>
 
 
 </section>
 
  ]]></description>
   <category>news</category>
-  <guid>https://pgduval.github.io/posts/welcome/index.html</guid>
+  <guid>https://pgduval.github.io/posts/setup/index.html</guid>
   <pubDate>Tue, 26 Dec 2023 05:00:00 GMT</pubDate>
 </item>
 </channel>

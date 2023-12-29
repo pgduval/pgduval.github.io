@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
+    "objectID": "posts/setup/index.html",
+    "href": "posts/setup/index.html",
     "title": "Setup this blog",
     "section": "",
-    "text": "Documenting the setup of this blog for posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.\nI’m following the quarto documentation here: Quarto more specifically the Creating a Blog guide."
+    "text": "Documenting the setup of this blog.\nFor posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.\nI’m following the quarto documentation here: Quarto more specifically the Creating a Blog guide."
   },
   {
-    "objectID": "posts/welcome/index.html#setup",
-    "href": "posts/welcome/index.html#setup",
+    "objectID": "posts/setup/index.html#setup",
+    "href": "posts/setup/index.html#setup",
     "title": "Setup this blog",
     "section": "Setup",
     "text": "Setup\nFirst, I installed the package in RStudio: install.packages(\"quarto\") Then, in RStudio, I created a new project using the Quarto template. We need to reopen Rstudio after installing quarto for the option to become visible. Then I selected: File &gt; New Project &gt; Quarto Blog."
   },
   {
-    "objectID": "posts/welcome/index.html#publish",
-    "href": "posts/welcome/index.html#publish",
+    "objectID": "posts/setup/index.html#publish",
+    "href": "posts/setup/index.html#publish",
     "title": "Setup this blog",
     "section": "Publish",
-    "text": "Publish\nTo publish I followed instruction here Github Pages.\nSomes notes:\n\nIt’s important to create the gh-pages branch before publishing.\nAs we installed the package from RStudio the quarto commands needs to be executed from the Terminal windows in RStudio.\n\nUpdating the blog is simply a matter of:\n\nMaking the change on the gh-page branch\nCommiting the change\nCheckout on main branch\nPublish with quarto publish gh-pages"
+    "text": "Publish\nTo publish I followed instruction here Github Pages.\nSomes notes:\n\nIt’s important to create the gh-pages branch before publishing.\nAs we installed the package from RStudio the quarto commands needs to be executed from the Terminal windows in RStudio.\n\nUpdating the blog is simply a matter of:\n\nMaking the change on the main branch\nCommiting the changes\nPublish with quarto publish gh-pages\n\nThe quarto publish commands automatically render and commit the changes on main to the gh-pages branch. It then push the changes to github."
   },
   {
     "objectID": "index.html",
