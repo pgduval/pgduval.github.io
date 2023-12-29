@@ -1,0 +1,19 @@
+---
+title: "Setup this blog"
+author: "Philippe G-Duval"
+date: "2023-12-26"
+categories: [news]
+---
+
+This is the first post to document how to setup this blog and to get familiar with the Quarto engine.
+
+I'm following the quarto documentation here: [Quarto](https://quarto.org/docs/guide/) more specifically the [Creating a Blog](https://quarto.org/docs/websites/website-blog.html) guide. 
+
+## Setup
+
+First I installed the package in RStudio: `install.packages("quarto")`
+Then in RStudio I created a new project using the Quarto template. We need to reopen Rstudio after install quarto for the option to become visible then I selected: `File > New Project > Quarto Blog`. 
+
+## Publish
+
+
