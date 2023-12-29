@@ -11,8 +11,8 @@ I'm following the quarto documentation here: [Quarto](https://quarto.org/docs/gu
 
 ## Setup
 
-First I installed the package in RStudio: `install.packages("quarto")`
-Then in RStudio I created a new project using the Quarto template. We need to reopen Rstudio after install quarto for the option to become visible then I selected: `File > New Project > Quarto Blog`. 
+First, I installed the package in RStudio: `install.packages("quarto")`
+Then, in RStudio, I created a new project using the Quarto template. We need to reopen Rstudio after installing quarto for the option to become visible. Then I selected: `File > New Project > Quarto Blog`. 
 
 ## Publish
 
