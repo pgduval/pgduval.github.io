@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Setup this blog",
+    "section": "",
+    "text": "This is the first post to document how to setup this blog and to get familiar with the Quarto engine.\nI’m following the quarto documentation here: Quarto more specifically the Creating a Blog guide."
+  },
+  {
+    "objectID": "posts/welcome/index.html#setup",
+    "href": "posts/welcome/index.html#setup",
+    "title": "Setup this blog",
+    "section": "Setup",
+    "text": "Setup\nFirst, I installed the package in RStudio: install.packages(\"quarto\") Then, in RStudio, I created a new project using the Quarto template. We need to reopen Rstudio after installing quarto for the option to become visible. Then I selected: File &gt; New Project &gt; Quarto Blog."
+  },
+  {
+    "objectID": "posts/welcome/index.html#publish",
+    "href": "posts/welcome/index.html#publish",
+    "title": "Setup this blog",
+    "section": "Publish",
+    "text": "Publish\nTo publish I followed instruction here Github Pages.\nSomes notes: - It’s important to create the gh-pages branch before publishing. - As we installed the package from RStudio the quarto commands needs to be executed from the Terminal windows in RStudio.\nUpdating the blog is simply a matter of: 1. Making the change on the gh-page branch 2. Commiting the change 3. Checkout on main branch 4. Publish with quarto publish gh-pages"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Duval’s Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nDec 29, 2023\n\n\nPhilippe G-Duval\n\n\n\n\n\n\n  \n\n\n\n\nSetup this blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nDec 26, 2023\n\n\nPhilippe G-Duval\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Philppe G-Duval",
+    "section": "",
+    "text": "Welcome! I’m Philippe G-Duval, a seasoned Director at STATLOG with over 12 years of experience in data and analytics. My expertise lies in constructing statistical models, particularly in the realm of finance and credit risk modeling. When I’m not immersed in data, you can either find me logging wood or crafting intricate designs with my mastery of crochet!"
+  },
+  {
+    "objectID": "about.html#about",
+    "href": "about.html#about",
+    "title": "Philppe G-Duval",
+    "section": "",
+    "text": "Welcome! I’m Philippe G-Duval, a seasoned Director at STATLOG with over 12 years of experience in data and analytics. My expertise lies in constructing statistical models, particularly in the realm of finance and credit risk modeling. When I’m not immersed in data, you can either find me logging wood or crafting intricate designs with my mastery of crochet!"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Philppe G-Duval",
+    "section": "Education",
+    "text": "Education\nUniversity of Sherbrooke, Québec, Canada\nMSC in Economics | 2011 - 2013\nUniversity of Sherbrooke, Québec, Canada\nB.A in Economics | 2007 - 2011"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#air-quality",
+    "href": "posts/post-with-code/index.html#air-quality",
+    "title": "Post With Code",
+    "section": "Air Quality",
+    "text": "Air Quality\nFigure 1 further explores the impact of temperature on ozone level.\n\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\")\n\n\n\n\nFigure 1: Temperature and ozone level."
+  }
+]
