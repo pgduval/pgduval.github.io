@@ -77,7 +77,7 @@ font-style: inherit;">"loess"</span>)</span></code></pre></div>
 
 
 
-<p>This is the first post to document how to setup this blog and to get familiar with the Quarto engine.</p>
+<p>Documenting the setup of this blog for posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.</p>
 <p>I’m following the quarto documentation here: <a href="https://quarto.org/docs/guide/">Quarto</a> more specifically the <a href="https://quarto.org/docs/websites/website-blog.html">Creating a Blog</a> guide.</p>
 <section id="setup" class="level2">
 <h2 class="anchored" data-anchor-id="setup">Setup</h2>
@@ -85,6 +85,19 @@ font-style: inherit;">"loess"</span>)</span></code></pre></div>
 </section>
 <section id="publish" class="level2">
 <h2 class="anchored" data-anchor-id="publish">Publish</h2>
+<p>To publish I followed instruction here <a href="https://quarto.org/docs/publishing/github-pages.html">Github Pages</a>.</p>
+<p>Somes notes:</p>
+<ul>
+<li>It’s important to create the <code>gh-pages</code> branch before publishing.</li>
+<li>As we installed the package from RStudio the quarto commands needs to be executed from the Terminal windows in RStudio.</li>
+</ul>
+<p>Updating the blog is simply a matter of:</p>
+<ol type="1">
+<li>Making the change on the <code>gh-page</code> branch</li>
+<li>Commiting the change</li>
+<li>Checkout on main branch</li>
+<li>Publish with <code>quarto publish gh-pages</code></li>
+</ol>
 
 
 </section>

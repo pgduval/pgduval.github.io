@@ -4,7 +4,7 @@
     "href": "posts/welcome/index.html",
     "title": "Setup this blog",
     "section": "",
-    "text": "This is the first post to document how to setup this blog and to get familiar with the Quarto engine.\nI’m following the quarto documentation here: Quarto more specifically the Creating a Blog guide."
+    "text": "Documenting the setup of this blog for posterity but mostly for my future self. Overall I’m quite impress by the simplicity and easy of use of Quarto.\nI’m following the quarto documentation here: Quarto more specifically the Creating a Blog guide."
   },
   {
     "objectID": "posts/welcome/index.html#setup",
@@ -18,7 +18,7 @@
     "href": "posts/welcome/index.html#publish",
     "title": "Setup this blog",
     "section": "Publish",
-    "text": "Publish"
+    "text": "Publish\nTo publish I followed instruction here Github Pages.\nSomes notes:\n\nIt’s important to create the gh-pages branch before publishing.\nAs we installed the package from RStudio the quarto commands needs to be executed from the Terminal windows in RStudio.\n\nUpdating the blog is simply a matter of:\n\nMaking the change on the gh-page branch\nCommiting the change\nCheckout on main branch\nPublish with quarto publish gh-pages"
   },
   {
     "objectID": "index.html",
